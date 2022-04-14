@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>input control</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Academic information</legend>
+                <br><p>
+                    <label>Degree
+                        <select name="Academic">
+                            <option>Master of Bussiness Administration</option>
+                            <option>Master if Information Technology</option>
+                            <option>Master of Acconting and Finance</option>
+                            <option>Master of Networking Technology</option>
+                        </select>
+                    </label>
+                </p>
+                
+                <p>
+                    <br>
+                    <label>
+                        Student ID : <input name="id" >
+                    </label>
+                </p><br>
+                Class attended
+                <select name="select" multiple="multiple">
+                    <option value="0">Mathematics</option>
+                    <option value="1">Geography</option>
+                    <option value="2">Biology</option>
+                </select>
+            </fieldset>
+        </form><br>
+
+        <form>
+            <fieldset>
+                <legend>Personal Details</legend>
+                <br><p>
+                    <label>
+                        First Name : <input firstname="fnameid" ><br>
+                    </label><br>
+                    <label>
+                        Last Name  : <input lastname="lnameid" ><br>
+                    </label> 
+                    <label>
+                        Gender : <input type="radio" name="gender" value="male"><label>Male</label>
+                                <input type="radio" name="gender" value="female"><label>Female</label>
+                    </label><br>
+                    <p>
+                        <label>
+                            Email : <input email="emailid" ><br>
+                        </label>
+            </fieldset>
+        </form><br>
+        <textarea name="txtarea" rows="5" cols="40">
+            TERMS AND CONDITIONS....
+        </textarea><br>
+        <button>
+            <input type="submit" value="Send info"></button>
+        <button> 
+            <input type="reset" value="Clear info">
+        </button>
+
+        
+    </body>
+</html>
